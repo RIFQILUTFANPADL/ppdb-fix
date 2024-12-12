@@ -1,6 +1,6 @@
 <?php
-// ini_set('display_errors', 1);
-// error_reporting(E_ALL);
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
 
 if (isset($_POST['submit'])) {
@@ -54,8 +54,8 @@ if (isset($_POST['submit'])) {
     $sekolahnpsn = $_POST['sekolahnpsn'];
     $sekolahnama = $_POST['sekolahnama'];
     $foto = 'foto_' . $nisn;
-    $ijazahdepan = 'ijazahdpn_' . $nisn;
-    $ijazahbelakang = 'ijazahblkg_' . $nisn;
+    $aktekelahiran = 'akte_kel' . $nisn;
+    $kartukeluarga = 'kartu_kel' . $nisn;
 
     // Perihal gambar
     $nama_file_foto = $_FILES['foto']['name'];
@@ -73,8 +73,8 @@ if (isset($_POST['submit'])) {
     $tmp_file2 = $_FILES['scanaktekelahiran']['tmp_name'];
     $tmp_file3 = $_FILES['scankartukeluarga']['tmp_name'];
     $path_foto = "images/foto/" . $foto . '.' . $ext1;
-    $path_idpn = "images/ijazahdepan/" . $ijazahdepan . '.' . $ext2;
-    $path_iblkg = "images/ijazahbelakang/" . $ijazahbelakang . '.' . $ext3;
+    $path_idpn = "images/aktekelahiran/" . $aktekelahiran . '.' . $ext2;
+    $path_iblkg = "images/kartukeluarga/" . $kartukeluarga . '.' . $ext3;
 
     if ($_FILES['foto']['error'] == UPLOAD_ERR_OK) {
         // Proses upload file foto

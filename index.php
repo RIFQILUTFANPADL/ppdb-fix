@@ -130,8 +130,8 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">Pendaftaran akan dibuka untuk tahun ajaran 2021-2022. Jurusan Multimedia, Teknik Komputer dan Jaringan (TKJ), Rekayasa Perangkat Lunak (RPL).</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">Langkah pertama mendaftar adalah klik tombol sign in, jika belum memiliki akun, harap sign up terlebih dahulu. Kemudian lengkapi data dan berkas yang diminta.</p></div>
+                    <div class="col-lg-4 ml-auto"><p class="lead">Pendaftaran dibuka untuk tahun ajaran 2024-2025. PAUD Silih Asuh menyediakan pendidikan berkualitas untuk anak usia dini, membantu perkembangan anak secara holistik melalui pembelajaran yang menyenangkan dan bermakna.</p></div>
+                    <div class="col-lg-4 mr-auto"><p class="lead">Langkah pertama untuk mendaftar adalah dengan klik tombol Daftar. Jika belum memiliki akun, harap melakukan pendaftaran akun terlebih dahulu. Setelah itu, lengkapi formulir data dan unggah dokumen yang diminta.</p></div>
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
@@ -167,7 +167,7 @@
                     <div class="col-lg-4">
                         <h4 class="text-uppercase mb-4">Alamat Sekolah</h4>
                         <p class="lead mb-0">
-                            Bagian ini dapat digunakan untuk menampilkan alamat sekolah
+                            Bagian ini dapat digunakan untuk menampilkan alamat sekolah di bandung awayss
                         </p>
                     </div>
                 </div>
